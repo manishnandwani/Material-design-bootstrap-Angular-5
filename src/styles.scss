@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+// .view {
+//     background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+//     background-size: cover;
+//     height: 100vh;
+// }
+.back{
+    background-size: cover;
+    
+
+}
+
+
+.rating {
+    color: #ffa000;
+    list-style-type: none;
+    padding: 0;
+    white-space:nowrap;
+}
+
+li{display:inline}
+ul{overflow:hidden}
+
+.pic{
+    display:inline-block;
+    border:0;
+    // width:196px;
+    // height:210px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.pic:hover{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.3);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.3);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.3);
+    transition: all 200ms ease-in;
+    transform: scale(1.3);
+}
